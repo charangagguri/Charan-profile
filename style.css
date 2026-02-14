@@ -1,0 +1,140 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+/* Scroll Progress */
+#progress{
+  position:fixed;
+  top:0;
+  left:0;
+  height:5px;
+  background:#00ffd5;
+  width:0%;
+  z-index:999;
+}
+
+/* Welcome Section */
+.welcome{
+  height:100vh;
+  background:linear-gradient(135deg,#1e3c72,#2a5298);
+  color:white;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+.typing{
+  font-size:50px;
+}
+
+/* About */
+.about{
+  padding:60px 20px;
+  background:#f4f4f4;
+  opacity:0;
+  transform:translateY(50px);
+  transition:1s;
+}
+
+.about.show{
+  opacity:1;
+  transform:translateY(0);
+}
+
+.about-container{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+  gap:40px;
+}
+
+.about-img img{
+  width:250px;
+  border-radius:15px;
+  transition:0.4s;
+}
+
+.about-img img:hover{
+  transform:scale(1.05);
+}
+
+.about-text{
+  max-width:500px;
+}
+
+.about-text h2{
+  margin-bottom:15px;
+  font-size:32px;
+}
+
+/* Button */
+
+
+/* Footer */
+footer{
+  background:#111;
+  color:white;
+  text-align:center;
+  padding:50px;
+}
+.skill{
+    text-align: center;
+}
+#sites{
+    height: 100vh;
+    text-align: center;
+    background-color: #00ffff;
+}
+#sites h1{
+    margin: 40px ;
+}
+.charan{
+    height: 50vh;
+    background-color: bisque;
+}
+.buttons{
+    text-align: center;
+    margin: 30px;
+}
+.charangagguri{
+    font-size: 50px;
+    line-height: 60px;
+    transition: .6s;
+    margin: 0 20px;
+    color: #000;
+}
+.charangagguri{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    background-color: #e63232;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+.charangagguri:hover{
+    transform: translate(0,-10px);
+}
+.charangagguri .fa:hover{
+    color: #fff;
+}
+.charangagguri:nth-child :hover{
+    background-color: #3b5999;
+}
+#charan{
+    margin-bottom: 30px;
+    font-size: 50px;
+    color:#1e3c72;
+    text-shadow:  0 5px 4px rgba(0,0,0,.5);
+    }
